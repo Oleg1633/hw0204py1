@@ -21,7 +21,8 @@ def math_test():
         
         user_answer = input("Напишите ваш ответ: ")
         
-        if user_answer.isdigit(): #Метод isdigit() возвращает True, если все символы в строке являются цифрами. Если нет, возвращается False.
+        if user_answer.isdigit(): #Метод isdigit() возвращает True, если все символы в строке являются цифрами. 
+            #Если нет, возвращается False.
 
             user_answer = int(user_answer)
             if (operation == '+' and number1 + number2 == user_answer) or (operation == '-' and number1 - number2 == user_answer):
